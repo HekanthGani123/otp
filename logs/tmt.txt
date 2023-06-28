@@ -1,0 +1,23 @@
+2023-06-29 00:04:16.213 INFO  [restartedMain] c.e.g.GenerateotpApplication - Starting GenerateotpApplication using Java 17.0.1 on LAPTOP-1P5SJK4U with PID 22280 (D:\OTP\generateotp\generateotp\target\classes started by Hekanth in D:\OTP\generateotp\generateotp)
+2023-06-29 00:04:16.214 INFO  [restartedMain] c.e.g.GenerateotpApplication - No active profile set, falling back to 1 default profile: "default"
+2023-06-29 00:04:16.440 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-06-29 00:04:16.441 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-29 00:04:16.441 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-06-29 00:04:16.442 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.75]
+2023-06-29 00:04:16.466 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-06-29 00:04:16.467 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 251 ms
+2023-06-29 00:04:16.540 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-06-29 00:04:16.547 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-06-29 00:04:16.552 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-29 00:04:16.557 INFO  [restartedMain] c.e.g.GenerateotpApplication - Started GenerateotpApplication in 0.376 seconds (JVM running for 853.249)
+2023-06-29 00:04:16.558 INFO  [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2023-06-29 00:04:29.414 INFO  [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-29 00:04:29.414 INFO  [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-06-29 00:04:29.415 INFO  [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-06-29 00:04:31.215 INFO  [http-nio-8080-exec-2] c.e.g.controller.MessageController - Exception occurs :The number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.
+2023-06-29 00:06:21.096 INFO  [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-06-29 00:06:21.111 INFO  [Thread-26] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2023-06-29 00:06:21.111 INFO  [Thread-26] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-06-29 00:06:21.112 INFO  [Thread-26] o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-06-29 00:06:21.114 INFO  [Thread-26] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2023-06-29 00:06:21.115 INFO  [Thread-26] o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
